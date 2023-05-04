@@ -1,9 +1,11 @@
-import React from 'react'
+import Layout from '@/components/layout/Layout';
 
-const indexNew = () => {
+const New = () => {
   return (
-    <div>new</div>
+    <Layout>
+      <div></div>
+    </Layout>
   )
 }
 
-export default indexNew;
+export default New;

@@ -1,8 +1,16 @@
-import React from 'react'
+//Dependencies
+import { useTasks } from '@/context/TaskContext'
+//Components
+import Layout from '@/components/layout/Layout';
 
 const index = () => {
+  const { tasks } = useTasks();
+  console.log(tasks);
+
   return (
-    <main>home page</main>
+    <Layout>
+      <main>home page</main>
+    </Layout>
   )
 }
 
